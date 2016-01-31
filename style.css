@@ -1,5 +1,73 @@
-body{
-	/* Farbe */
-	background: rgb(255,255,255);	
-	
+body, h1,h2,h3, ul, ol, p, a {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	/* padding: 0 0 0 0; */
 }
+
+
+.header {
+	padding: 10px 10px 10px 10px;
+	background-color: #b56663;
+	text-align: center;
+}
+
+.header a { 
+	color: #ffffff;
+}
+
+h1 {
+	color: #ffffff;
+	text-align: center;
+}
+
+.main-content {
+	width: 500px;
+	padding: 20px 20px 20px 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto;
+}
+
+
+.main-content h3 {
+	margin: 0 0 0 0;
+	border-bottom: 1px solid #cccccc;
+/* 	padding-bottom: 3px; */
+}
+
+/* für alle unordered Lists */
+.main-content ul {
+	padding: 0 0 0 0;
+}
+
+/* UL für Rezepte */
+.nav li{
+	display: inline;
+	padding-right: 10px;
+}
+
+.nav li:last-child {
+	padding-right: 0px;
+}
+
+.recipes li{
+	list-style-type: none; /* keine Strichpunkte für die ordered list */
+	padding: 0;
+	border: 1px solid #b56663;
+	padding-left: 15px;
+	text-align: center;
+}
+
+
+.recipes h3 {
+	border-bottom: 0;
+}
+
+/* UL für Links */
+.recipes a {
+	color: #7facaa;
+	text-decoration: : none;
+}
+
+	
