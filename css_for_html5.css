@@ -1,0 +1,46 @@
+/* css_for_html5 */
+
+head, body, h1, h2, h3, ul, ol, p, a {
+	padding-top: 	0px;
+	padding-right: 	0px;
+	padding-bottom: 0px;
+	padding-left: 	0px;
+}
+
+.fieldset {
+	margin-bottom: 10px;
+}
+
+.fieldset ol {
+	margin:  0;
+	padding: 0;
+}
+
+.fieldset label {
+	display: 		inline-block;
+	line-height: 	1.8;
+	vertical-align: top;
+}
+
+
+.fieldset li {
+	list-style: none; /* entfernt Nummerierung in der ol*/
+	padding: 5px;
+	margin:  0;
+}
+
+.fieldset fieldset legend {
+	padding: 0 0 5px;
+	font-weight: normal;
+}
+
+.fieldset fieldset label {
+	display: block;
+	width: auto;
+}
+
+.fieldlist em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- CSS Datei einbinden -->
+		<link type="text/css" rel="stylesheet" href="css_for_html5.css"/>
+		<title>HMTL5-Seite mit Grundstruktur</title>
+	</head>
+	
+	<body>
+		<section>
+			<header>
+				<h1>The heading of the page</h1>
+				<p>This is content in the header</p>
+			</header>
+			<p>This is content in the section</p>
+			<!-- Footer for this particular section-->
+			<footer> 
+				<p>By "Author Name"</p>
+			</footer>
+		</section>
+		<!-- Aside Tag -->
+		<aside>
+			<p> Aside Tag </p>
+			<p> Test 123</p>
+		</aside>
+		
+		<!-- Nav Tag -->
+		<nav>
+			<ul>
+				<li><a href="www.google.de">Google</a></li>
+				<li><a href="www.bmw.de">BMW</a></li>
+				<li><a href="www.sap.com">SAP</a></li>
+			</ul>
+		</nav>
+		
+		<fieldset class="fieldset">
+			<legend>Details zur Feldliste</legend>
+			<ol>
+				<li>
+					<!-- URL -->
+					<label {clear: left;} for="url">URL: </label>
+					<input {display: block;} type="url" id="url" />
+				</li>
+				<li>
+					<!-- Datum -->
+					<label {clear: left;} for="datum">Datum: </label>
+					<input {display: block;} type="date" id="datum" />
+				</li
+				<li>
+					<fieldset>
+						<legend>Wähle dein Geschlecht<em>*</em></legend>
+						<label><input type="radio" name="geschlecht" />Mann</label>
+						<label><input type="radio" name="geschlecht" />Frau</label>
+					</fieldset>
+				</li>
+			</ol>
+		</fieldset>
+	</body>
+</html>
